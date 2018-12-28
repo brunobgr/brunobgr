@@ -25,13 +25,14 @@
         "#53bcf4",
         "#9ed1ec",
         "#3d5591",
-        "#195699"
+        "#195699",
+        "#1686c2"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.7",
     "siteFonts": [],
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png"
   },
@@ -144,8 +145,8 @@
         },
         {
           "_params": {
-            "showTitle": false,
-            "showText": false,
+            "showTitle": true,
+            "showText": true,
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
@@ -162,14 +163,25 @@
             "overlayColor": "#53bcf4",
             "overlayOpacity": "0.4"
           },
-          "title": "FULL SCREEN INTRO",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "title": "SOLUÇÕES INTELIGENTE",
+          "text": "<span style=\"font-style: normal;\"><b>EM SERVIÇOS DE TECNOLOGIA&nbsp;</b></span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Layout"
           ],
           "_name": "header1",
-          "_anchor": "header1-1"
+          "_anchor": "header1-1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#1686c2",
+              "font-size": "48px"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "center"
+            }
+          }
         },
         {
           "_inherit": "features1",
@@ -328,12 +340,13 @@
             },
             "H3": {
               "color": "#195699",
-              "text-align": "right",
+              "text-align": "center",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
             "P": {
-              "color": "#195699"
+              "color": "#195699",
+              "text-align": "center"
             }
           },
           "_params": {

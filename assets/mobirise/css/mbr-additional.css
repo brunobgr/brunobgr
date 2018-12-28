@@ -14,6 +14,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -486,6 +487,14 @@ h6,
 #ext_menu-0 SPAN {
   font-family: 'Roboto', sans-serif;
 }
+#header1-1 .mbr-section-title {
+  color: #1686c2;
+  font-size: 48px;
+}
+#header1-1 .mbr-section-lead {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
 #features2-9 .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #9ed1ec;
 }
@@ -512,11 +521,12 @@ h6,
 }
 #msg-box7-c H3 {
   color: #195699;
-  text-align: right;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 #msg-box7-c P {
   color: #195699;
+  text-align: center;
 }
 #form1-d .form-control-label {
   color: #232323;
