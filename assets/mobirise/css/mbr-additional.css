@@ -15,6 +15,10 @@
 
 
 
+
+
+
+
 body,
 input,
 textarea,
@@ -422,6 +426,23 @@ h6,
 .scrollToTop_wraper {
   display: none;
 }
+#msg-box3-l .mbr-section-title,
+#msg-box3-l p {
+  color: #000;
+}
+#msg-box3-l .mbr-section-title {
+  color: #195699;
+}
+#msg-box3-l .lead P {
+  color: #efefef;
+  font-family: 'Roboto', sans-serif;
+}
+#msg-box1-o H2 {
+  font-family: 'Roboto', sans-serif;
+}
+#msg-box1-o H3 {
+  color: #1686c2;
+}
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -485,6 +506,32 @@ h6,
   color: #2969b0!important;
 }
 #ext_menu-0 SPAN {
+  font-family: 'Roboto', sans-serif;
+}
+#pricing-table2-p .mbr-plan-header,
+#pricing-table2-p .mbr-plan-body {
+  background-color: #f4f4f4;
+}
+#pricing-table2-p ul,
+#pricing-table2-p .mbr-plan-title,
+#pricing-table2-p .mbr-price-value,
+#pricing-table2-p .mbr-price-figure,
+#pricing-table2-p .mbr-price-term {
+  color: #28262b;
+}
+#pricing-table2-p .mbr-plan {
+  border-color: #e8e8e8;
+}
+#pricing-table2-p .mbr-plan .list-group-item {
+  border-color: #cfcfcf;
+}
+#pricing-table2-p .mbr-section__container .mbr-section-title {
+  color: #1686c2;
+}
+#pricing-table2-p .mbr-section__container .mbr-section-subtitle {
+  font-family: 'Roboto', sans-serif;
+}
+#pricing-table2-p .mbr-plan-subtitle SPAN {
   font-family: 'Roboto', sans-serif;
 }
 #header1-1 .mbr-section-title {
